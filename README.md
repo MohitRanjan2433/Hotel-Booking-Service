@@ -39,15 +39,15 @@ node server.js
 #API Endpoints
 {
   [
-    POST /api/users/signup
-    POST /api/users/login
+    POST /api/users/signup,
+    POST /api/users/login,
   ],
   [
-    POST /api/hotels/createHotel
-    GET /api/hotels/hotels
-    GET /api/hotels/hotel/:id
-    GET /api/hotels/hotel?name=Hotel California
-    PUT /api/hotels/hotel/:id
-    DELETE /api/hotels/hotel/:id
+    POST /api/hotels/createHotel,
+    GET /api/hotels/hotels,
+    GET /api/hotels/hotel/:id,
+    GET /api/hotels/hotel?name=Hotel California,
+    PUT /api/hotels/hotel/:id,
+    DELETE /api/hotels/hotel/:id,
   ],
 }
