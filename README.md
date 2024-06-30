@@ -16,7 +16,7 @@ This repository contains the code for a simple hotel booking service built with 
 ##Installation
 *Clone the repository:
 {
-  git clone https://github.com/yourusername/hotel-booking-service.git
+  git clone https://github.com/MohitRanjan2433/Hotel-Booking-Service.git
   cd hotel-booking-service
 }
 
