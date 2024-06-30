@@ -9,9 +9,9 @@ This repository contains the code for a simple hotel booking service built with 
 5. Protected routes for admin operations
 
 ##Prerequisites
-Node.js
-MongoDB
-Postman (for testing the API)
+1.Node.js
+2.MongoDB
+3.Postman (for testing the API)
 
 ##Installation
 *Clone the repository:
@@ -27,10 +27,10 @@ Postman (for testing the API)
 
 ##Create a .env file in the root directory and add the following environment variables:
 {
-  PORT=5000
-  MONGO_URI=your_mongodb_connection_string
-  JWT_SECRET=your_jwt_secret
-  ADMIN_EMAIL=admin@example.com
+  1.PORT=5000
+  2.MONGO_URI=your_mongodb_connection_string
+  3.JWT_SECRET=your_jwt_secret
+  4.ADMIN_EMAIL=admin@example.com
 }
 
 ##Start the server:
