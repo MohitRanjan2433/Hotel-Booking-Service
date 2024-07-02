@@ -11,9 +11,12 @@ require("./config/database").connect();
 const user = require("./router/userRoutes");
 const hotel = require("./router/hotelRoutes");
 const room = require("./router/roomRoutes");
+const booking = require("./router/bookingRoutes");
+
 app.use('/user', user);
 app.use('/hotel', hotel);
 app.use('/room', room);
+app.use('/booking', booking);
 
 
 app.listen(PORT, () => {
